@@ -1,0 +1,398 @@
+/* Extra Small Screen */
+
+@media(max-width:767px)
+{
+	
+	/* Start Global */
+	
+	.container
+	{
+		width: 440px
+	}
+	
+	.special-heading:after
+	{
+		left: 44%;
+	}
+
+	/* End Global */
+
+	/* Start Header */
+
+	.header
+	{
+		background-size: 100% 100%;
+	}
+	
+	.header .menu
+	{
+		float: left;
+		width: 50%;
+		margin-top: 27px;
+		overflow: hidden
+	}
+	
+	.header .menu i
+	{
+		float: right;
+		display: block;
+		background-color: rgba(0, 0, 0, .4);
+		border: 1px solid #979797;
+		text-align: center;
+		width: 50px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 5px;
+		cursor: pointer
+	}
+
+	.header .menu .links
+	{
+		float: right;
+		margin-top: 0;
+		background-color: rgba(0, 0, 0, .4);
+		width: 220px;
+		padding: 0;
+		display: none
+	}
+
+	.header .links li
+	{
+		display: block;
+		margin: 0
+	}
+
+	.header .links li a
+	{
+		display: block;
+		padding: 10px 20px
+	}
+
+	.header .links li a:hover,
+	.header .links li.active a
+	{
+		background-color: #17a2b8;
+		color: #FFF;
+	}
+
+	.header .intro
+	{
+		margin-top: 100px;
+	}
+
+	.header .intro h2
+	{
+		font-size: 35px;
+	}
+
+	.header .intro p
+	{
+		font-size: 25px;
+	}
+
+	/* End Header */
+
+	/* Start Features */
+
+	.features h2
+	{
+		font-size: 21px;
+	}
+	
+	.features .feat
+	{
+		width: 100%;
+		text-align: center
+	}
+
+	.features .feat:nth-child(3),
+	.features .feat:nth-child(5)
+	{
+		margin-left: 0
+	}
+
+	/* End Features */
+
+	/* Start Courses */
+
+	.courses p
+	{
+		margin: 50px 0;
+		font-size: 17px;
+	}
+
+	.courses .box
+	{
+		width: 80%;
+		margin: 2% 10%
+	}
+
+	.courses .box:nth-child(6),
+	.courses .box:nth-child(10)
+	{
+		margin-right: 10%
+	}
+
+	/* End Courses */
+
+	/* Start Subscribe */
+
+	.subscribe form input
+	{
+		margin-right: 0;
+		margin-bottom: 10px;
+		width: 400px;
+	}
+
+	.subscribe button
+	{
+		width: 400px;
+		padding: 15px 36px;
+	}
+
+	/* End Subscribe */
+
+	/* Start Contact Us */
+
+	.contact .part1,
+	.contact .part2
+	{
+		width: 100%;
+	}
+
+	.contact .part2
+	{
+		margin-left: 0
+	}
+
+	/* End Contact Us */
+
+	/* Start Footer */
+
+	.footer .col
+	{
+		width: 100%;
+		margin: 20px 0
+	}
+	
+	/* End Footer */
+	
+}
+
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px)
+{
+	
+	/* Start Global */
+	
+	.container
+	{
+		width: 750px
+	}
+
+	/* End Global */
+
+	/* Start Header */
+
+	.header
+	{
+		background-size: 100% 100%
+	}
+	
+	.header .menu
+	{
+		float: left;
+		width: 50%;
+		margin-top: 27px;
+		overflow: hidden
+	}
+	
+	.header .menu i
+	{
+		float: right;
+		display: block;
+		background-color: rgba(0, 0, 0, .4);
+		border: 1px solid #979797;
+		text-align: center;
+		width: 50px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 5px;
+		cursor: pointer
+	}
+
+	.header .menu .links
+	{
+		float: right;
+		margin-top: 0;
+		background-color: rgba(0, 0, 0, .4);
+		width: 330px;
+		padding: 0;
+		display: none
+	}
+
+	.header .links li
+	{
+		display: block;
+		margin: 0
+	}
+
+	.header .links li a
+	{
+		display: block;
+		padding: 10px 20px
+	}
+
+	.header .links li a:hover,
+	.header .links li.active a
+	{
+		background-color: #17a2b8;
+		color: #FFF;
+	}
+	
+	.header .intro
+	{
+		margin-top: 80px;
+	}
+
+	.header .intro h2
+	{
+		font-size: 50px;
+	}
+
+	.header .intro p
+	{
+		font-size: 30px;
+	}
+
+	/* End Header */
+
+	/* Start Courses */
+
+	.courses p
+	{
+		margin: 50px 0;
+	}
+
+	.courses .box
+	{
+		width: 49%;
+		margin-right: 2%
+	}
+
+	.courses .box:nth-child(4),
+	.courses .box:nth-child(8)
+	{
+		margin-right: 0
+	}
+
+	/* End Courses */
+
+	/* Start Contact Us */
+
+	.contact .part1,
+	.contact .part2
+	{
+		width: 100%;
+	}
+
+	.contact .part2
+	{
+		margin-left: 0
+	}
+
+	/* End Contact Us */
+
+	/* Start Footer */
+
+	.footer .col
+	{
+		width: 100%;
+		margin: 20px 0
+	}
+	
+	/* End Footer */
+	
+}
+
+
+/* Medium Screen */
+
+@media(min-width:992px) and (max-width:1199px)
+{
+	
+	/* Start Global */
+	
+	.container
+	{
+		width: 970px
+	}
+
+	/* End Global */
+
+	/* Start Header */
+	
+	.header .intro h2
+	{
+		font-size: 50px;
+	}
+
+	.header .intro p
+	{
+		font-size: 30px;
+	}
+
+	/* End Header */
+
+	/* Start Courses */
+
+	.courses p
+	{
+		margin: 50px 0;
+	}
+
+	.courses .box
+	{
+		width: 43%;
+		margin-right: 2%;
+		margin-left: 6%
+	}
+	
+	.courses .box:nth-child(4),
+	.courses .box:nth-child(6),
+	.courses .box:nth-child(8),
+	.courses .box:nth-child(10)
+	{
+		margin-left: 0;
+		margin-right: 6%
+	}
+
+	/* End Courses */
+
+	/* Start Contact Us */
+
+	.contact .part2 textarea
+	{
+		height: 119px;
+	}
+
+	/* End Contact Us */
+
+	/* Start Footer */
+
+	.footer .col
+	{
+		width: 32%;
+	}
+	
+	.footer .recent,
+	.footer .blog
+	{
+		margin-left: 2%
+	}
+	
+	/* End Footer */
+	
+}
